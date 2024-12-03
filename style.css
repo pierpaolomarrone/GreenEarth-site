@@ -1,0 +1,412 @@
+/*GENERAL*/
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin:0;
+  font-family: "Red Hat Display";
+}
+
+a {
+  text-decoration: none;
+  color:  #cbe2cc;
+}
+
+a:hover {
+  color: #66bb6a;
+  transition: all 0.5s ease-in-out;
+}
+
+/*HEADER*/
+
+.header {
+  width: 100%;
+  background-color: rgb(8, 69, 8);
+  display: flex;
+  justify-content: space-between;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 3;
+}
+
+.left-section {
+  display: flex;
+  align-items: center;
+  padding-left: 10px;
+}
+
+.logo {
+  width: 60px;
+  border-radius: 40px;
+  padding:5px;
+}
+
+.namesite {
+  color: white;
+  font-size: 40px;
+  }
+
+.about {
+  padding-right:30px;
+  font-size: 30px;
+}
+
+.right-section {
+  display: flex;
+  align-items: center;
+}
+
+.three-main-section {
+  color: white;
+  font-size: 20px;
+  display: flex;
+  padding-right: 10px;
+  justify-content: space-around;
+  cursor: pointer;
+}
+
+/*HERO SECTION*/
+
+.site-main {
+  width: 100%;
+  height:auto;
+  padding-top: 65px;
+}
+
+.hero-container {
+  position: relative; 
+  display: flex; 
+  flex-direction: column;
+  justify-content: center; 
+  align-items: center; 
+  height: 100vh; 
+  background-image: url('path/to/your/hero-pic.jpg'); 
+  background-size: cover; 
+  background-position: center; 
+  text-align: center; 
+}
+
+
+.slogan {
+  font-size: 2rem;
+  color: rgb(255, 255, 255);
+  position: absolute;
+  top: 20%;
+  text-transform: capitalize;
+}
+
+.hero-button {
+  position: absolute;
+  width: 150px;
+  top: 40%;
+  color: white;
+  background-color:#3a883d;
+  border-radius: 6px;
+  padding:10px 20px;
+  border: none;
+  cursor: pointer;
+  transition: all 0.5s ease-in-out;
+  font-size: 1.2rem;
+}
+
+.hero-button:hover {
+  background-color: #81c784;
+}
+
+/*ABOUT US-PROJECT SECTIONS*/
+.about-us-container {
+ background-color:  rgb(8, 69, 8);
+ padding-left: 50px;
+ padding-right: 50px;
+ padding-bottom: 300px;
+ padding-top: 300px;
+}
+
+.about-us {
+  color:#cbe2cc ;
+  font-size: 50px;
+  display: flex;
+  justify-content: center;
+  padding-bottom: 200px;
+  padding-top: 60px;
+}
+
+.about-text {
+  color: white;
+  font-size: 25px;
+  display: flex;
+  justify-content: center;
+}
+
+.our-projects-container {
+  background-color: #3a883d;
+  padding-left: 50px;
+  padding-right: 50px;
+  padding-bottom: 200px;
+  padding-top: 200px;
+ }
+
+ .project-title {
+  color:rgb(8, 69, 8);
+  font-size: 30px;
+  display: flex;
+  justify-content: center;
+  padding: 30px;
+ }
+
+.project-description {
+  color: white;
+  display: flex;
+  justify-content: center;
+  font-size: 20px;
+ }
+
+.treedom-pic-container{
+  display: flex;
+  justify-content: center;
+  padding: 30px;
+  padding-bottom: 300px;
+}
+
+.treedom-pic {
+max-width:100% ;
+height: auto;
+}
+
+.ocean-title {
+  color: rgb(8, 69, 8);
+  font-size: 25px;
+  display: flex;
+  justify-content: center;
+  padding: 30px;
+  font-size: 30px;
+}
+
+/*CONTACT US SECTION*/
+
+.content {
+  padding: 25px;
+  width: 100%;
+  box-sizing: border-box;
+  margin: 0 auto;
+  float: left;
+}
+
+#modulo {
+  padding: 15px;
+  background:rgb(11, 97, 11);
+  color: #fff;
+  overflow: auto; 
+  padding-top: 200px;
+  padding-bottom:200px;
+}
+
+#modulo h1 {
+  margin:0;
+  color:  #cbe2cc;;
+  font-size: 50px;
+  padding-left: 10px;
+}
+
+#modulo h3 {
+  margin: 15px 0 25px;
+  padding-left: 10px;
+}
+
+#modulo ul{
+  list-style: none; 
+  padding: 0; 
+  margin: 0;
+  width: 100%;
+}
+
+#modulo ul li{
+  padding: 10px;
+  width: 50%;
+  float: left;
+  box-sizing: border-box;
+}
+
+#modulo ul li.tre, 
+#modulo ul li.quattro {
+  float: none;
+  clear: left;
+  width: 100%;
+}
+
+#modulo ul li.uno {
+  margin-right: 1%;
+}
+
+#modulo ul li.quattro {
+  padding: 20px 0; 
+  text-align: center;
+}
+
+#modulo ul li label {
+  display: block;
+  padding-bottom: 5px;
+  width: 50%;
+}
+
+#modulo ul li input {
+  border: solid 2px #000;
+  background: rgba(170, 225, 255, 0.2);
+  color: #fff;
+  float:left;
+}
+
+#modulo ul li .testo {
+ padding: 10px;
+ width: 100%;
+ box-sizing: border-box;
+}
+
+#modulo ul li textarea {
+  padding: 10px;
+  color: #fff;
+  width: 50%;
+  height: 100px;
+  background: rgba(170, 225, 255, 0.2);
+  border: solid 2px black;
+  box-sizing: border-box;
+}
+
+#modulo ul li .pulsante {
+  color: #fff;
+  background: #3a883d;;
+  border: solid 2px #000;
+  padding: 12px 25px;
+  margin-left: 10px;
+  text-transform: uppercase;
+  cursor: pointer;
+  font-weight: bold;
+  transition: 0.5s;
+}
+
+#modulo ul li .pulsante:hover {
+  color: #fff;
+  border: solid 2px #ffffff;
+}
+
+/*FOOTER*/
+
+.site-footer {
+  background-color: rgb(8, 69, 8);
+  width: 100%;
+}
+
+.three-section-footer {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr ;
+  padding-bottom: 30px;
+  place-items: center;
+}
+
+.logo-footer {
+  display: flex;
+  align-items: center;
+  padding-left: 20px;
+}
+
+.contact-scritta {
+  font-size: 20px;
+}
+
+.email {
+  display:flex;
+  align-items: center;
+  color:  #cbe2cc;;
+  }
+
+.contatti-icon {
+  width: 20px;
+  padding-right: 10px;
+  color:  #cbe2cc;;
+}
+
+.social-container,
+.contact-container
+ {
+  color:  #cbe2cc;;
+  cursor: pointer;
+  padding-top:30px ;
+  padding-bottom: 30px;
+}
+
+.social-container {
+  display: flex;
+  align-items: center;
+}
+
+.social-icon {
+  font-size: 20px;
+  padding-right: 10px;
+} 
+
+.copyright {
+  color: white;
+  display: flex;
+  justify-content: center;
+  padding-bottom: 20px;
+  font-size: 12px;
+}
+
+.social-icon:hover,
+.social-icon:hover,
+.email:hover
+{
+color: #66bb6a;
+}
+
+/*MEDIA QUERIES*/
+
+@media (max-width:750px) {
+  .three-section-footer {
+    grid-template-columns: 1fr;
+  }
+
+  .about {
+    font-size: 15px;
+  }
+
+  .slogan {
+    font-size: 40px;
+  }
+
+  .hero-button {
+    font-size: 14px;
+    width: 100px;
+    left: 45%;
+  }
+
+}
+
+@media (min-width:751px) and (max-width:1200px) {
+  .three-section-footer {
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .about {
+    font-size: 20px;
+  }
+
+  .slogan {
+    font-size: 60px;
+  }
+
+  .hero-button {
+    font-size: 16px;
+    width: 120px;
+    left: 48%;
+  }
+}
+
+@media (min-width:1201px)  {
+  .slogan {
+    font-size: 80px;
+  }
+}

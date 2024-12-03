@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>GreenEarth</title>
+  <link  rel="stylesheet" href="style.css">
+  <script src="https://kit.fontawesome.com/573891a313.js" crossorigin="anonymous"></script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Red+Hat+Display:ital,wght@0,300..900;1,300..900&display=swap" rel="stylesheet">
+</head>
+
+<body>
+ <div class="site-wrapper">
+  <header class="header">
+    <div class="left-section">
+      <div class="namesite">GreenEarth</div>
+      <div class="earthlogo">
+      <img class="logo"src="images/28620277.jpg" alt="earthlogo">
+      </div>
+    </div>
+    <div class="right-section">
+      <div class="three-main-section">
+        <div class="about">
+          <a href="#about-us">About Us</a></div>
+        <div class="about">
+          <a href="#our-projects">Our Projects</a></div> 
+        <div class="about">
+          <a href="#contact-us">Contact Us</a>
+         </div>
+      </div>
+    </div>
+  </header>
+
+  <main class="site-main">
+    <div class="hero-container">
+      <img class="hero-pic" src="images/green-abstract-nature-trees-world-birds-earth-simple-green-background-1920x1080-animals-birds-hd-art-wallpaper-598098cdd1aa4d3be617a85ff0f186fd.jpg">
+        <div class="slogan" >For a safer and cleaner earth </div>
+        <button class="hero-button" type="button">Call to Action</button>
+    </div>
+
+    <div class="about-us-container">
+      <div class="about-us" id="about-us">ABOUT US</div>
+      <div class="about-text"> We are a Startup  that deals with environmental impact projects such 
+        as reforestation and ocean cleaning, our goal is respect for mother nature.
+      <br>We are collaborating with famous companies such as "TREEDOM", "OCEAN CLEANUP" and "PLASTIC FREE". </div>
+    </div>
+  
+    <div class="our-projects-container">
+
+      <div class="about-us" id="our-projects">OUR PROJECTS</div>
+
+        <div class="project-container"> 
+          <div class="project-title">TREEDOM PARTNERSHIP</div>
+           <div class="project-description">Since 2020 we have created a partnership with the large Treedom company, 
+          thanks to which we have managed to replant 1 million trees 
+          between Brazil, Central Africa and Argentina.</div>
+            <div class="treedom-pic-container">
+            <img class="treedom-pic" src="images/Haiti-Una-delle-comunita-coinvolte-nei-progetti-di-Treedom-Piantare-alberi-e-un-lavoro-a-cui-si-dedica-tutta-la-comunita-per-un-lavoro-che-rinsalda-i-legami-sociali.webp" alt="treedom-pc">
+             </div>
+        </div>
+
+      <div class="project-container"> 
+        <div class="ocean-title">THE OCEAN CLEANUP</div>
+        <div class="project-description">We captured our first plastic in 2019 and in 2021 we reached proven technology.Today, our total catch runs to hundreds of tons and counting,
+           and as we continuously improve our operations,our catches become larger and more reliable.The fundamental challenge of cleaning up the ocean garbage patches is that the plastic pollution is highly diluted,
+           spanning millions of square kilometers. Our cleanup solution is designed to first concentrate the plastic, allowing us to effectively collect and
+          remove vast quantities..</div>
+         <div class="treedom-pic-container">
+            <img class="treedom-pic" src="images/The-Ocean-Cleanup-STORY_presentation-202304-scaled.jpg" alt="oceancleanup">
+        </div>
+      </div>
+
+      <div class="project-container"> 
+        <div class="ocean-title">PLASTIC FREE</div>
+        <div class="project-description">We are an Italian Free Onlus, together with over 260,000 volunteers we have organized more than 6,500 environmental clean-up appointments, 
+        giving new life to territories submerged by plastic and waste.</div>
+       <div class="treedom-pic-container">
+        <img class="treedom-pic" src="images/Immagine Plastic Free Fossano 29-9 loca-0x1080.png" alt="plasticfree-pic">
+      </div>
+      </div>
+      
+
+    </div>
+
+    <section id="modulo">
+      <div class="content" id="contact-us">
+        <h1>CONTACT US</h1> 
+        <h3>Request information by filling out the form!<br>we will contact you as soon as possible</h3>
+
+        <form action="dati.php" method="post">
+         <ul>
+           <li class="uno">
+              <label for="nome">Name</label>
+              <input type="text" name="nome" id="nome" class="testo" required>
+            </li>
+
+            <li class="due">
+              <label for="email">Email</label>
+              <input type="email" name="email" id="email" class="testo" required>
+            </li>
+
+            <li class="tre">
+              <label for="testo">Message</label>
+              <textarea name="testo" id="testo"></textarea>
+            </li>
+
+            <li class="quattro ">
+              <input type="submit" value="request information" class="pulsante">
+            </li>
+          </ul> 
+       </form>
+      </div>
+     </section>
+
+
+  </main>
+  
+  <footer class="site-footer">
+
+    <div class="three-section-footer">
+      <div class="logo-footer">
+        <div class="namesite">GreenEarth</div>
+        <div class="earthlogo">
+        <img class="logo"src="images/28620277.jpg" alt="earthlogo">
+        </div>
+       </div>
+  
+        <div class="contact-container">
+          <div class="contact-scritta">CONTACT INFORMATION</div>
+          <div class="email">
+            <div class="social-icon"><i class="fa-solid fa-envelope"></i></div><div>info@greenearth.it</div>
+          </div>
+          <div class="email">
+            <div class="social-icon"><i class="fa-solid fa-phone"></i></div><div>+39 02 89737500 </div>
+          </div>
+          <div class="email">
+            <div class="social-icon"><i class="fa-solid fa-location-dot"></i></div><div>Strada S. Giorgio Martire 3, 70124 Bari</div>
+          </div>
+        </div>
+  
+        <div class="social-container">
+          <div class="social-icon"><i class="fa-brands fa-instagram"></i></div>
+          <div class="social-icon"><i class="fa-brands fa-facebook"></i></div>
+          <div class="social-icon"><i class="fa-brands fa-twitter"></i></div>
+        </div>
+    </div>
+      <div class="copyright">Copyright © 2024 Greenearth</div>
+  </footer>
+ </div>
+</body>
+</html>
